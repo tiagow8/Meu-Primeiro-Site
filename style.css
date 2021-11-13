@@ -1,0 +1,224 @@
+.menu-principal {
+  width: 100%;
+  background-color: #f8f3dd;
+  height: 60px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0px !important;
+}
+
+main {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+
+.logo {
+  padding: 16px;
+  width: 70%;
+  float: left;
+}
+
+.redes-sociais ul li {
+  margin-left: 25px;
+  display: inline-block;
+  float: left;
+  list-style: none;
+}
+
+.redes-sociais {
+  width: 25%;
+  float: right;
+}
+
+.header-2 {
+  background-color: #ffffff;
+  width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.menu-urls {
+  height: 80px;
+  border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+  display: inline-block;
+  color: #8b8b8b;
+  margin-left: 15px;
+  height: 50px;
+}
+
+.menu ul li:hover {
+  border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+  color: #00bac6;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #8b8b8b;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.menu {
+  width: 70%;
+  float: left;
+}
+
+.busca {
+  width: 30%;
+  float: right;
+  text-align: center;
+}
+
+.busca input {
+  margin-top: 0px;
+  height: 36px;
+  width: 190px;
+  padding: 5px;
+  background-image: url("img/347-3472729_lupa-de-pesquisa-png-transparent-png\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: 96%;
+  border: 1px solid #d6d6d6;
+}
+
+.col-100 {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+button.slick-prev {
+  font-size: 0px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  z-index: 9;
+  background-image: url("img/transferir\ \(1\)\ \(1\).png");
+  top: 35%;
+  position: absolute;
+  display: none !important;
+}
+
+button.slick-next {
+  font-size: 0px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  z-index: 9;
+  background-image: url("img/transferir\ \(1\)\ \(1\).png");
+  top: 35%;
+  position: absolute;
+  display: none !important;
+}
+
+.slick-list {
+  width: 100% !important;
+}
+
+.slick-dots li button {
+  font-size: 0px;
+  border: 5px solid #ffffff;
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slick-dots {
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 600px;
+}
+
+li.slick-active button {
+  background: #00bac6;
+}
+
+.slick-dots li {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.content {
+  background: #f8f3dd;
+  width: 100%;
+}
+
+.content p {
+  font-size: 20px;
+  color: #9a9a9a;
+  text-align: center;
+}
+
+.content strong {
+  color: #000000;
+}
+
+.content h1 {
+  text-align: center;
+  color: #737377;
+}
+
+.col-3 {
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 29%;
+  float: left;
+  position: relative;
+}
+
+.bloco-texto-imagem {
+  background-color: #f8f3dd;
+}
+
+.bloco-texto-imagem p {
+  text-align: center;
+}
+
+.bloco-texto-imagem:before {
+  width: 100%;
+  display: inline-block;
+  content: "";
+  height: 52px;
+  background: #f8f3dd;
+
+  background-position: center;
+}
+
+.bloco-imagens-texto:after {
+  width: 100%;
+  display: inline-block;
+  content: "";
+  height: 70px;
+  background: #f8f3dd;
+}
+
+.imagens ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagens ul li {
+  text-align: center;
+  background: #f8f3dd;
+}
